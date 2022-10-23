@@ -12,7 +12,7 @@ main()
 	printf(" 1. Suma\n 2. Resta\n 3. Multiplicacion\n 4. Division\n Que opcion desea: ");
 	scanf("%d", &opc);
 	system("cls");
-}while(opc>4 || opc<0);
+}while(opc>4 || opc<1);
 	switch(opc){
 	case 1: 
 	int a;
