@@ -29,10 +29,9 @@ main()
 	printf("El resultado es %d", multiplicacion(a, b));
 	break;
 	case 4:
-	printf("Ha escogido la opcion de division\n");
 	float c;
 	float d;
-	printf("Ha escogido la opcion de multiplicacion");
+	printf("Ha escogido la opcion de division\n");
 	printf("El resultado es %f", division(c, d));
 	break;
 	}
