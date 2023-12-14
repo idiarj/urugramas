@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer Proyecto Lenguaje de Clientes Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="cuerpo">
+
+    <button id="crearTabs">
+        Crear Tabs
+    </button>
+
+    
+    <script type="module">
+       import { ahoraSiDesacpolado } from './ahoraSiDesacoplado.js';
+        let botonCrearTabs = document.getElementById("crearTabs")
+        botonCrearTabs.addEventListener('click', () => {
+            const tab = new ahoraSiDesacoplado();
+            botonCrearTabs.style.visibility = 'hidden';
+        });
+    </script>
+</body>
+</html>

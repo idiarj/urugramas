@@ -1,0 +1,178 @@
+body{
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor{
+    display: grid;
+    width: 100%;
+    position: relative;
+    height: 650px;
+    margin: auto;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgba(121, 139, 139, 0.733);
+    border-radius: 10px;
+}
+
+.cabecera{
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin: 10px 2px 0px 2px;
+    height: 58px;
+    overflow: hidden;
+}
+
+ .panelInfo{
+    display: flex;
+    position: absolute;
+    height: 480px;
+    margin: 78px 30px 30px 30px;
+    width: 85%;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    border-color: rgb(1, 185, 155);
+    place-self: center;
+    background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+    visibility: hidden;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    text-justify: center;
+}
+
+
+
+/* #pablo{
+    align-self: center;
+    justify-self: center;
+    height: 420px;
+    width: 90%;
+
+
+    
+
+}
+
+#jotaro{
+    height: 400px;
+    width: 90%;
+    bottom: 0;
+    align-self: center;
+    justify-self: center;
+}
+
+#chavez{
+    width: 95%;
+    height: 340px;
+    align-self: center;
+    justify-self: center;
+}
+
+#haaland{
+    width: 100%;
+    height: 100%;
+} */
+
+p{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.active{
+    visibility: visible;
+    background-color: red;
+}
+
+
+
+.divOpciones{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 58px;
+    margin: 1px;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    bottom: 0;
+}
+
+
+
+.animacionSpan{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    visibility: hidden;
+    background-color: blue;
+    bottom: 0;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: blue;
+    border-width: thin;
+    margin: 1px;
+    visibility: hidden;
+}
+
+.boton{
+    width: 100%;
+    height: 85%;
+    background-color: rgb(185, 243, 221);
+    overflow: hidden;
+    position: relative;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 13px;
+    border-color: rgb(98, 58, 240);
+    margin-right: 3px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#crearTabs{
+    border-radius: 8px;
+    margin: 0;
+    position: absolute;
+    height: 150px;
+    background-color: rgb(10, 223, 238);
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 40px;
+}
+
+
+.boton:hover{
+    background-color: #f0f0f0;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 650px) {
+
+
+    .cabecera{
+        width: 100%;
+    }
+
+
+    .boton{
+        font-size: 9px;
+    }
+
+    p{
+        font-size: 9px;
+    }
+
+
+}
